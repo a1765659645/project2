@@ -1,0 +1,225 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	
+}
+body {
+	font-size: 0.24rem;
+	background-color: rgb(246,246,246);
+}
+.tit-box {
+	display: flex;
+	align-items: center;
+	height: 0.9rem;
+	width: 100%;
+	background-color: white;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.return {
+	display: flex;
+	align-items: center;
+	width: 0.6rem;
+	padding: 0 0.1rem;
+}
+.return>i {
+	font-size: 0.4rem;
+	color: #ff3c25;
+}
+.tit {
+	font-size: 0.34rem;
+	flex-grow: 1;
+	text-align: center;
+}
+.login {
+	font-size: 0.28rem;
+	width: 1.04rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	border-radius: 0.06rem;
+	margin-right: 0.1rem;
+	color: #ff3c25;
+}
+.login i {
+	font-size: 0.48rem;
+}
+.avatar-box {
+	width: 100%;
+	background-color: white;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.avatar-box img {
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+}
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.28rem;
+	padding: 0.2rem 0;
+	border-bottom: 0.02rem solid #e0e0e0;
+	margin-left: 0.3rem;
+}
+.avatar>span {
+	flex-grow: 1;
+	
+}
+.avatar>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.avatar-box>div:nth-child(2) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.avatar-box>div:nth-child(2)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(2)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.avatar-box>div:nth-child(2) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.avatar-box>div:nth-child(2)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(2)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+
+.avatar-box>div:nth-child(3) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.avatar-box>div:nth-child(3)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(3)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.avatar-box>div:nth-child(3) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.avatar-box>div:nth-child(3)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(3)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+
+.avatar-box>div:nth-child(4) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+	
+}
+.avatar-box>div:nth-child(4)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(4)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.avatar-box>div:nth-child(4) {
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	height: 0.6rem;
+	padding: 0.2rem 0;
+}
+.avatar-box>div:nth-child(4)>span:nth-child(1) {
+	flex-grow: 1;
+}
+.avatar-box>div:nth-child(4)>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.phone-box {
+	margin-top: 0.2rem;
+	width: 100%;
+	background-color: white;
+	border-top: 0.02rem solid #e0e0e0;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.phone-box>div {
+	box-sizing: border-box;
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.3rem;
+	padding: 0.2rem 0;
+	height: 1.02rem;
+	border-bottom: 0.02rem solid #e0e0e0;
+}
+.phone-box>div>span:nth-child(1) {
+	flex-grow: 1;
+}
+.phone-box>div>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.phone-box>div>span:nth-child(1) {
+	flex-grow: 1;
+}
+.phone-box>div>i {
+	font-size: 0.6rem;
+	color: #999;
+}
+.phone-box>div:nth-child(4) {
+	border: none;
+}
+.phone-box>div:nth-child(4)>span:nth-child(2) {
+	margin-right: 0.6rem;
+}
+.out {
+	width: 5.24rem;
+	height: 0.88rem;
+	background-color: #fe555d;
+	border-radius: 0.15rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.28rem;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+}
